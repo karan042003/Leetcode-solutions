@@ -23,7 +23,6 @@ public:
         if (i == n)
             return 0;
 
-        // Shift p by 1 so p = -1 maps to column 0
         if (dp[i][p + 1] != -1)
             return dp[i][p + 1];
 
